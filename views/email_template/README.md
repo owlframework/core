@@ -9,7 +9,7 @@ Welcome to the  email template directory for **Owl Core**. This folder houses cl
 ```text
 views/
 ├── email_template/
-│   ├── verify_code.gaze.php    # OTP/verification code dispatch template
-│   └── welcome_email.gaze.php  # New account activation and greeting template
+│   ├── verify_code.temp.php    # OTP/verification code dispatch template
+│   └── welcome_email.temp.php  # New account activation and greeting template
 
  
