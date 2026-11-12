@@ -8,7 +8,7 @@ define('DEBUG', true);
 date_default_timezone_set('Africa/Lagos');
 
 // Define core application metadata and identification constants.
-define('APPNAME', "Owl Php");
+define('APPNAME', "Owl Core");
 
 // Configure authentication session key identifier.
 define('AUTH_SESSION', 'USER_ID');
