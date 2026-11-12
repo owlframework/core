@@ -3,8 +3,11 @@
 Owl Framework is a lightweight, high-performance, and security-first PHP MVC framework engineered from the ground up for modern web applications, administrative panels, and fintech portals. It eliminates bloated third-party dependencies in favor of a clean, native, and robust architecture.
 
 
-create a project with our core version 
+#  Owl Framework installation
+
 composer create-project owlframework/core myapp
+
+
 ---
 
 ## 🚀 Key Features
