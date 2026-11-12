@@ -25,8 +25,6 @@ defined('ROOTPATH') OR die("Direct access denied.");
 2. Request Lifecycle & Execution Pattern
 Request handlers receive HTTP payloads ($_POST or $_GET), utilize auto-aliased models to query data, manage flash notifications, and handle redirection or JSON responses.
 
-Example (app/Requests/auth/login.catch.php):
-
 PHP
 <?php
 defined('ROOTPATH') OR die("Direct access denied.");

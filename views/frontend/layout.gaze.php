@@ -27,6 +27,6 @@
 
    <?php include 'footer.gaze.php'; ?>
    </div>
-   <script src="<?= url('public/assets/js/app.js') ?>" nonce="<?= get_nonce(); ?>"></script>
+   <script src="<?= url('public/assets/js/app.js') ?>" nonce="<?= get_nonce(); ?>" defer></script>
 </body>
 </html>

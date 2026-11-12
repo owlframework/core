@@ -11,5 +11,7 @@ views/
 ├── email_template/
 │   ├── verify_code.temp.php    # OTP/verification code dispatch template
 │   └── welcome_email.temp.php  # New account activation and greeting template
+│   └── forget_password.temp.php  # reset or forget password template
+
 
  

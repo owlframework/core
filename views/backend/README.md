@@ -4,7 +4,7 @@ Welcome to the administrative view architecture for **Owl Core**. This directory
 
 ---
 
-## 📂 Directory Structure
+## 📂 Directory Structure  
 
 ```text
 views/
@@ -16,6 +16,7 @@ views/
 │   └── dashboard.gaze.php           # Main metrics overview (Active sessions, user counts, system health)
 │   └── edit.gaze.php            # Individual user record modification form
 
+
  🛠️ Core Conventions & Standards
 1. View Extension (.gaze.php)
 All administrative views use the .gaze.php extension, processed securely by the framework's rendering engine. Direct script execution is blocked at the core level via strict entry checks:
@@ -24,9 +25,6 @@ PHP
 defined('ROOTPATH') OR die("Direct access denied.");
 2. Layout Inheritance via Output Buffering
  
-Example (views/backend/dashboard.gaze.php):
- 
-
 <div class="admin-dashboard-wrapper">
     <h1>System Overview</h1>
     <div class="metrics-grid">
